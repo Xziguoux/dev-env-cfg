@@ -17,8 +17,11 @@ install zsh-autosuggestions, syntax-highlight
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 # install z.lua
+git clone https://github.com/skywind3000/z.lua.git
+# make install
+# append lua bin path to PATH
 # please download z.lua first
 # reminder: not the dir z.lua, it's the command z.lua
+# append .zshrc
 eval "$(lua /path/to/z.lua --init zsh enhanced once echo)"
 ```
-
